@@ -1,0 +1,90 @@
+.grettings {
+    background-image: url(../../IMG/grettings/fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+     transition: transform 1s;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.nav__item a {
+    font-family: var(--fontLF);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #fff;
+}
+
+.square {
+    width: 4px;
+    height: 4px;
+    background-color: white;
+}
+
+.nav__item:last-child a{
+    padding: 11px 17px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.nav__item a:hover {
+    color: var(--colorGreen);
+}
+
+.nav__item:last-child a:hover{
+    border-color: var(--colorGreen);    
+}
+
+.grettings__content {
+    padding-top: 100px;
+    padding-bottom: 148px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grettings__title {
+    font-family: var(--fontLF);
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+    max-width: 460px;
+}
+
+.grettings__text {
+    font-family: var(--fontIBM);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 185%;
+    text-align: center;
+    color: #fff;
+}
+
+.grettings__btn {
+    margin-top: 34px;
+}
+
