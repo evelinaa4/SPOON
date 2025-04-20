@@ -18,8 +18,6 @@
     box-shadow: 0px 5px 20px rgb(0, 0, 0, 0.05);
 }
 
-.service__icon {}
-
 .service__title {
     margin-top: 25px;
     font-family: var(--fontLF);
@@ -36,4 +34,22 @@
     font-size: 14px;
     line-height: 171%;
     color: #999;
+}
+
+@media(max-width:950px){
+    .service__list{
+        flex-direction: column;
+    }
+    .service{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:450px){
+    .service__card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
